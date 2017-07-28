@@ -1,0 +1,90 @@
+/*style2.css*/
+
+html{
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  /*image background with gradient*/
+  background: linear-gradient(rgba(255,255,255,.95), rgba(255,255,255,.5)), url(images/HandsWHearts.jpg);
+  background-size: cover;
+
+}
+
+header{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  background-color: rgb(133,188,153,0);
+}
+
+#HeaderLeft{
+  display: flex;
+  flex-flow: row;
+  justify-content: end;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.navbar{
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  }
+
+.navbar a {
+  display: block;
+  padding: 1em;
+  color: gray;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  background-color: orange;
+  text-decoration: none;
+}
+
+
+/*Main content of the page*/
+
+MainContent{
+  flex:1;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+
+}
+
+ul{
+  list-style: none;
+}
+
+footer{
+  flex: none;
+
+  /*position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;*/
+
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+
+  background-color: rgb(133,188,153);
+
+}

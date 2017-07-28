@@ -1,0 +1,108 @@
+/**
+ * Demo Styles
+ */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+
+  background: linear-gradient(rgba(255,255,255,.95), rgba(255,255,255,.5)), url(images/HandsWHearts.jpg);
+
+}
+
+header{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin:0;
+
+}
+
+#SharityHead{
+  display: block;
+  padding: 3px;
+  color: rgb(133,188,153);
+  padding: 10pt;
+  margin: 0;
+  padding-left: 15pt;
+  padding-right: 15pt;
+
+  font-size: 25pt;
+}
+
+.navbar{
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  margin: 0;
+
+
+}
+
+.navbar a {
+  display: block;
+  padding: 3px;
+  color: gray;
+  padding: 20pt 10pt 20pt;
+
+  font-size: 15pt;
+}
+
+#HeaderRightMost{
+  padding-right: 30pt;
+}
+
+.navbar a:hover, #SharityHead:hover{
+  background-color: orange;
+}
+
+.demo {
+  margin: 0 auto;
+  padding-top: 64px;
+  max-width: 640px;
+  width: 94%;
+}
+
+.demo h1 {
+  margin-top: 0;
+}
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+
+/*General Stuff like lists and headings*/
+
+ul{
+  text-decoration: none;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
