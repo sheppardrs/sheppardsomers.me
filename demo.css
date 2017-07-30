@@ -18,9 +18,13 @@ body {
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Text Me One";
+  font-size: 18pt;
 
-  background: linear-gradient(rgba(255,255,255,.95), rgba(255,255,255,.5)), url(images/HandsWHearts.jpg);
+  background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url(images/HandsWHearts.jpg);
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: 0 0, top;
 
 }
 
@@ -70,10 +74,16 @@ header{
   background-color: orange;
 }
 
+.PageHeader{
+  color: rgb(133,188,155);
+
+}
+
+
 .demo {
   margin: 0 auto;
   padding-top: 64px;
-  max-width: 640px;
+  max-width: 90%;
   width: 94%;
 }
 
@@ -91,7 +101,7 @@ header{
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
+  background-color: rgb(133,188,155);
   text-align: center;
 }
 
@@ -105,4 +115,16 @@ ul{
 
 a{
   text-decoration: none;
+}
+
+
+/* FOR THE RESEARCH PAGE
+defines how links inside of lists are treated,
+I probably should have added a class to do this
+but I'll add that later if I need to*/
+
+
+li a {
+  color: orange;
+
 }
