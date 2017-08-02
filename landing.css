@@ -92,6 +92,60 @@ header{
 }
 
 
+/**
+Main Content
+
+*/
+
+.MainContent{
+  display: flex;
+  flex-flow: column;
+  width: 90%;
+  justify-content: center;
+  margin:5%;
+
+}
+
+.WhereGiving{
+
+  color: rgb(133,188, 153);
+  text-shadow: 2px 2px 2px black;
+  font-size: 50pt;
+  width: auto;
+  max-width: 75%;
+  align-self: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+.SearchWrapper{
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  width: auto;
+  max-width 75%;
+  align-self: center;
+
+
+}
+
+.Explanation {
+  font-size: 20pt;
+  color: gray;
+  text-shadow: 1px 1px 1px;
+  margin-bottom: 5%;
+}
+
+.Search{
+  font-size: 25pt;
+  margin-bottom:5%;
+
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
 input{
   font-size: 20pt;
   border-radius: 4pt;
@@ -111,6 +165,11 @@ button{
   margin: 2%;
 }
 
+.BasicInfo{
+  font-size: 20pt;
+  color: gray;
+  margin-bottom: 5%;
+}
 
 /**
  * Footer Styles
@@ -138,6 +197,13 @@ a{
   text-decoration: none;
 }
 
+a:hover{
+  text-decoration: underline;
+}
+
+a: {
+  color: inherit;
+}
 
 /* FOR THE RESEARCH PAGE
 defines how links inside of lists are treated,
