@@ -5,6 +5,12 @@
 
 # node_modules
 node_modules*
+package-lock*
+package.json
+public/*
+src/*
+webpack.config.js
+Pulse*
 
 # core dumps
 core
