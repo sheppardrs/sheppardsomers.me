@@ -28,11 +28,18 @@ body {
 
 }
 
-header{
+#header{
   display: flex;
   flex-flow: row;
   justify-content: space-between;
   margin:0;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  opacity: .90;
+
 
 }
 
@@ -126,8 +133,6 @@ Main Content
   width: auto;
   max-width 75%;
   align-self: center;
-
-
 }
 
 .Explanation {
@@ -146,7 +151,16 @@ Main Content
   justify-content: center;
 }
 
-input{
+.emailinput{
+  font-size: 8pt;
+  border-radius: 1pt;
+  background-color: orange;
+  height: 10pt;
+  width: 20pt;
+
+}
+
+.searchinput{
   font-size: 20pt;
   border-radius: 4pt;
   background-color: rgba(133,188,155,.3);
@@ -155,6 +169,8 @@ input{
 
   margin:2%;
 }
+
+
 
 button{
   font-size: 20pt;

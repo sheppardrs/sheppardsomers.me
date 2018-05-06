@@ -1,0 +1,206 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Open Sans";
+  font-size: 18pt;
+  text-align: center;
+  color: rgb(100,100,100);
+
+  background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), rgb(133,188,153);
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: 0 0, top;
+
+}
+
+#header{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin:0;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  opacity: .90;
+}
+
+#SharityHead{
+  display: block;
+  padding: 3px;
+  color: rgb(133,188,153);
+  padding: 10pt;
+  margin: 0;
+  padding-left: 15pt;
+  padding-right: 15pt;
+  font-size: 25pt;
+}
+
+.navbar{
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.emailinput{
+  border: none;
+  border-bottom: solid;
+  border-width: thin;
+  font-size: 14pt;
+  margin-right: 5pt;
+  outline: none;
+}
+
+.pagetitle {
+  font-size: 60pt;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  justify-self: center;
+  color: rgb(133,188,153);
+  letter-spacing: 5pt;
+}
+
+.pagesubtitle {
+  font-size: 30pt;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  justify-self: center;
+  color: rgb(133,188,153);
+}
+
+.pagetitleBox {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 80pt 50pt;
+  grid-row-gap: 50pt;
+  width: 90%;
+  margin:5%;
+}
+
+.threecards{
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-rows: 100%;
+  grid-row-gap: 15px;
+  grid-column-gap: 5%;
+  width: 90%;
+  margin:10%;
+  color: gray;
+}
+
+.cards3image {
+  max-width: 100%;
+
+}
+
+.card1 {
+  font-size: 18pt;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  justify-self: center;
+}
+
+.card2 {
+  font-size: 18pt;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  justify-self: center;
+}
+
+.card3 {
+  font-size: 18pt;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  justify-self: center;
+}
+
+/*bottom half*/
+.missionUsResearch {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 30% 30% 30%;
+  grid-row-gap: 5%;
+  width: 90%;
+  margin:5%;
+}
+
+.missionUsResearch .cards3image {
+  border-radius: 50%;
+}
+
+.missionUsResearch .card3 .cards3image {
+  border-radius: 0%;
+}
+.ourstory {
+  font-size: 16pt;
+  text-align: center;
+  color: rgb(133,188,153);
+}
+
+.mission {
+  font-size: 14pt;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  justify-self: center;
+  /*color: rgb(133,188,153);*/
+}
+
+/*.headshot {
+  border-radius: 50%;
+
+}
+*/
+
+
+ul{
+  text-decoration: none;
+  list-style: none;
+}
+
+button {
+  width: 20pt;
+  height: 20pt;
+  margin-right: 5pt;
+}
+
+button:focus {
+  outline: none;
+}
+
+.headerlink {
+  display: block;
+  padding: 3px;
+  color: rgb(133,188,153);
+  margin: 5pt;
+  padding-left: 15pt;
+  padding-right: 15pt;
+  font-size: 16pt;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(133,188,153);
+}
+
+h2 {
+  font-size: 18pt;
+  text-align: center;
+}
+
+h3 {
+  font-size: 16pt;
+  text-align: center;
+}
